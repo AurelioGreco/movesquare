@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Move</title>
+    <meta charset="utf-8">
+    <!-- Import Google Icon Font -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Import materialize.css -->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection"/>
+    <!-- Let browser know website is optimized for mobile -->
+    <link type="text/css" rel="stylesheet" href="css/custom_ag.css"></script>
+    <!-- Import Icons -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!-- Import custom_ag.css -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  </head>
+  <body>
+    <div class="navbar-fixed">
+      <nav>
+        <div class="nav-wrapper">
+          <div class="brand-logo">&nbsp;Move</div>
+          <ul class="right hide-on-med-and-down">
+            <li class="active"><a href="index.php" id="menu" title="Re-Start">| Re-Start |</a></li>
+          </ul><br>
+          <div class="row">
+            <div class="col s5">
+              <form action="index_submit" method="get" accept-charset="utf-8">
+                <input type="text" maxlength="17" id="text">
+                <span>Maximum characters 17!</span>
+                <input type="reset" class="right" value="Delete text">
+                <input type="button" class="right" onclick="$('#quadrato').html($('#text').val());" value="Save text in the square">
+              </form>
+              <span>Move the square!</span>
+              <input type="button" class="right" id="show" value="show">
+              <input type="button" class="right" id="hide" value="hide">
+              <input type="button" class="right" id="toggle" value="toggle">
+              <input type="button" class="right" id="right" value="right">
+              <input type="button" class="right" id="left" value="left">
+              <input type="button" class="right" id="down" value="down">
+              <input type="button" class="right" id="up" value="up">
+            </div> <!-- /.col s5 -->
+          </div> <!-- /.row -->
+        </div>
+      </nav>
+    </div> <!-- /.navbar-fixed -->
+    <div class="container" id="container"> <!-- Page Content goes here -->
+      <div class="row">
+        <div class="col s12">
+        </div> <!-- /.col s12 -->
+        <div class="col s12">
+          <p id="quadrato"></p>
+        </div> <!-- /.col s12 -->
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
+    <footer class="page-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col l12 s12">
+            <a class="grey-text text-lighten-4" href="http://www.figc.it/" title="Sito della Federazione Italiana Gioco Calcio" target="_blank">F.I.G.C.</a> &#8226;
+            <a class="grey-text text-lighten-4" href="http://www.busuu.com/it" title="Busuu" target="_blank">Busuu</a> &#8226;
+            <a class="grey-text text-lighten-4" href="http://www.duolingo.com/" title="Duolingo" target="_blank">Duolingo</a> &#8226;
+            <a class="grey-text text-lighten-4" href="https://www.hellolingo.com/" title="Hellolingo" target="_blank">Hellolingo</a> &#8226;
+            <a class="grey-text text-lighten-4" href="http://www.languageguide.org/it/" title="LanguageGuide per l'apprendimento delle lingue" target="_blank">LanguageGuide</a> &#8226;
+            <a class="grey-text text-lighten-4" href="http://www.italian-verbs.com/verbi-italiani.htm" title="Coniugare verbi italiani" target="_blank">Verbi italiani</a> &#8226;
+            <a class="grey-text text-lighten-4" href="http://www.elemadrid.com/it/page110.html" title="Coniugare verbi spagnoli" target="_blank">elemadrid</a> &#8226;
+            <a class="grey-text text-lighten-4" href="http://coniugazione.reverso.net/coniugazione-francese.html" title="Coniugare verbi francesi" target="_blank">Reverso</a> &#8226;
+            <a class="grey-text text-lighten-4" href="http://www.poesieracconti.it/" title="Poesie Racconti" target="_blank">Poesie Racconti</a> &#8226;
+            <a class="grey-text text-lighten-4" href="https://www.comingsoon.it/" title="ComingSoon" target="_blank">ComingSoon</a> &#8226;
+            <a class="grey-text text-lighten-4" href="http://movieplayer.it/" title="movieplayer" target="_blank">movieplayer</a> &#8226;
+            <a class="grey-text text-lighten-4" href="http://www.mymovies.it/" title="MYmovies" target="_blank">MYmovies</a> &#8226;
+            <a class="grey-text text-lighten-4" href="http://www.serietv.net/" title="Serie TV" target="_blank">Serie TV</a> &#8226;
+            <a class="grey-text text-lighten-4" href="http://www.stic.it/" title="Il club ufficiale italiano di Star Trek" target="_blank">Star Trek Italian Club</a> &#8226;
+            <a class="grey-text text-lighten-4" href="http://www.fantascienza.com/magazine/home/" title="Fantascienza" target="_blank">Fantascienza</a> &#8226;
+            <a class="grey-text text-lighten-4" href="http://tiii.me/" title="tiii.me - Quanto tempo dedicasti a vedere le tue serie TV?" target="_blank">tiii.me</a> &#8226;
+            <a class="grey-text text-lighten-4" href="http://www.focus.it/" title="Focus - notizie, foto, video di scienza, animali, ambiente e tecnologia" target="_blank">Focus</a> &#8226;
+            <a class="grey-text text-lighten-4" href="http://www.hwupgrade.it/" title="Hardware Upgrade - hardware, mobile, videogiochi, fotografia, software, mercato, server, auto, smarthome e TVtech" target="_blank">Hardware Upgrade</a> &#8226;
+            <a class="grey-text text-lighten-4" href="https://www.tomshw.it/" title="Tom's Hardware - hardware, videogiochi, Android, Apple, Windows, portatili, software, business, cultura, scienze, sicurezza" target="_blank">Tom's Hardware</a> &#8226;
+            <a class="grey-text text-lighten-4" href="http://www.creativecommons.it/" title="Creative Commons" target="_blank">Creative Commons</a> &#8226;
+            <a class="grey-text text-lighten-4" hre &#8226;f="https://www.w3schools.com/default.asp" title="w3schools" target="_blank">w3schools</a> &#8226;
+            <a class="grey-text text-lighten-4" href="http://jquery.com/" title="jquery" target="_blank">jquery</a> &#8226;
+            <a class="grey-text text-lighten-4" href="http://www.html.it/" title="html.it" target="_blank">html</a> &#8226;
+            <a class="grey-text text-lighten-4" href="http://php.net/" title="php" target="_blank">php</a> &#8226;
+            <a class="grey-text text-lighten-4" href="https://www.mysql.com/it/" title="mysql versione italiana" target="_blank">mysql</a> &#8226;
+            <a class="grey-text text-lighten-4" href="http://www.didasca.it/index.php" title="didasca" target="_blank">didasca</a> &#8226;
+            <a class="grey-text text-lighten-4" href="http://www.aicanet.it/" title="AICA" target="_blank">AICA</a>
+          </div> <!-- /.col l12 s12 -->
+        </div> <!-- /.row -->
+      </div> <!-- /.container -->
+      <div class="footer-copyright">
+        <div class="container">
+        © 2017
+        <a class="grey-text text-lighten-4 right" target="_blank" href="http://aureliogreco.altervista.org/" title="Aurelio Greco | Pagina personale">Aurelio Greco</a>
+        </div>
+      </div>
+    </footer>
+    <!-- Import jQuery 3.x snippet -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- JavaScript at end of body for optimized loading -->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <!-- Import custom_ag.js -->
+    <script type="text/javascript" src="js/custom_ag.js"></script>
+  </body>
+</html>        
