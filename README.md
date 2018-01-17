@@ -1,3 +1,3 @@
 # movesquare
 You move the square.
-Run index.html to view project.
+Run index.php with Apache to view project.
