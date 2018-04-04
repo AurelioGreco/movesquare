@@ -1,0 +1,36 @@
+#quadrato {
+	width: 150px;
+	height: 150px;
+	border: 5px solid #008000;
+	background: #BFBFBF;
+	margin: 0 auto;
+	position: relative;
+	z-index: -1;
+}
+
+nav .nav-wrapper {
+	background-color: #008000;
+	height: 270px;
+}
+
+#menu {
+	text-decoration: none;
+}
+
+#container {
+	margin-top: 500px;
+	margin-bottom: 500px;
+}
+
+.page-footer {
+	background-color: #008000;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+input {
+	font-size: larger;
+	padding: 8px;
+}
